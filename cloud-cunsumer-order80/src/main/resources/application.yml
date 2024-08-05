@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-cunsumer-order
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        serviceName: ${spring.application.name}
+        prefer-ip-address: true #优先使用服务ip进行注册
+        heartbeat:
+          enabled: true

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-payment-service
+  cloud:
+    consul:
+      discovery:
+        serviceName: ${spring.application.name}
+      port: 8500
+      host: localhost
+      config:
+        enabled: true
+        profile-separator: '-'
+        format: YAML
+#        watch:
+#          wait-time: 1

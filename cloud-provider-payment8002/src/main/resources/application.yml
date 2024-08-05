@@ -1,0 +1,33 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: ok
+    username: root
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=Asia/Shanghai&useSSL=false
+  profiles:
+    active: dev
+
+mybatis:
+  type-aliases-package  :
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true  #开启驼峰命名和下划线规范
+    log-impl: org.apache.ibatis.logging.log4j.Log4jImpl
+
+# mybatis-plus相关配置
+mybatis-plus:
+  # 全局配置
+  global-config:
+    db-config:
+      # 全局逻辑删除的字段名
+      logic-delete-field: deleted
+      # 逻辑已删除值(默认为 1)
+      logic-delete-value: 1
+      # 逻辑未删除值(默认为 0)
+      logic-not-delete-value: 0
+
+
+server:
+  port: 8002
+

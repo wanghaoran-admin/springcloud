@@ -1,0 +1,33 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    consul:
+      discovery:
+        serviceName: ${spring.application.name}
+      port: 8500
+      host: localhost
+    gateway:
+      routes:
+        - id: pay_routh1 #路由id,类似与mysql主键没有固定规则但是唯一,一般是服务名
+          uri: http://localhost:8001  #路由地址
+          predicates:
+            - Path=/feign/gateway/pay/get/**  #路径匹配的进行断言
+#            - After=2024-08-05T20:31:19.207227200+08:00[Asia/Shanghai]
+#            - Between=2024-08-05T20:31:19.207227200+08:00[Asia/Shanghai],2024-08-05T20:36:19.207227200+08:00[Asia/Shanghai]
+#            - Cookie=username,zzyy
+#            - Header=X-Request-Id, \d+ #请求头要有X-Request-Id属性并且为整数的正则表达式
+#            - Query=username, \d+ #要有参数username并且为整数才能路由
+#            - Host=**.it.com #请求中必须带着主机
+#            - Method=GET,POST #配置请求方法
+#            - RemoteAddr=192.168.124.1/24 #外部访问我的ip限制，最大不超过32目前是1·24他们是CIDR表示法
+
+
+
+        - id: pay_routh2 #路由id,类似与mysql主键没有固定规则但是唯一,一般是服务名
+          uri: http://localhost:8001  #路由地址
+          predicates:
+            - Path=/feign/gateway/pay/getInfo/**  #路径匹配的进行断言

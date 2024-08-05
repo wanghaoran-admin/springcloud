@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e851f71-fe0c-46e4-a728-cfa6d27e5ad8" name="更改" comment="新增">
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="application.yml" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/maven/maven-repository/org/springframework/cloud/spring-cloud-loadbalancer/4.1.0/spring-cloud-loadbalancer-4.1.0.jar!/org/springframework/cloud/loadbalancer/annotation/LoadBalancerClientConfiguration.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\maven\apache-maven-3.9.8" />
+        <option name="localRepository" value="C:\maven\maven-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\maven\apache-maven-3.9.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ioIbGXX2SJl9tbSIONs7vjK8jJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP 请求.generated-requests | #8.executor": "Run",
+    "HTTP 请求.generated-requests | #9.executor": "Run",
+    "Maven.cloud-provider-payment8001 [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
+    "Maven.cloud-provider-payment8001 [org.apache.maven.plugins:maven-clean-plugin:2.5:help].executor": "Run",
+    "Maven.springcloud [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main8001.executor": "Run",
+    "Spring Boot.Main8002.executor": "Run",
+    "Spring Boot.Main9527.executor": "Run",
+    "Spring Boot.MainOpenFeign80.executor": "Run",
+    "Spring Boot.main80.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/springcloud - 副本",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.17702936",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run",
+    "应用程序.ReturnCodeEnum.executor": "Run",
+    "应用程序.Test.executor": "Run"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springcloud\cloud-provider-payment8001\src\main\java\com\it\wang\controller" />
+      <recent name="E:\springcloud\cloud-consumer-feign-order80\src\main\java\com\it\wang" />
+      <recent name="E:\springcloud\cloud-provider-payment8002\src\main\java\com\it\wang" />
+      <recent name="E:\springcloud\cloud-provider-payment8002\src\main\resources" />
+      <recent name="E:\springcloud\cloud-cunsumer-order80\src\main\java\com\it\wang\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\springcloud\cloud-consumer-feign-order80\src\main\java\com\it\wang\controller" />
+      <recent name="E:\springcloud\cloud-consumer-feign-order80\src\main\java\com\it\wang\controller" />
+      <recent name="E:\springcloud\cloud-provider-payment8001\src\main\java\com\it\wang\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.it.wang.Main" />
+      <module name="cloud-commons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.it.wang.Main8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.it.wang.Main8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.it.wang.Main9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainOpenFeign80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.it.wang.MainOpenFeign80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Main8001" />
+      <item itemvalue="Spring Boot.Main8002" />
+      <item itemvalue="Spring Boot.Main9527" />
+      <item itemvalue="Spring Boot.MainOpenFeign80" />
+      <item itemvalue="应用程序.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main9527" />
+        <item itemvalue="Spring Boot.Main8001" />
+        <item itemvalue="Spring Boot.MainOpenFeign80" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="Spring Boot.Main8002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6e851f71-fe0c-46e4-a728-cfa6d27e5ad8" name="更改" comment="" />
+      <created>1720150574690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720150574690</updated>
+      <workItem from="1720150575864" duration="3363000" />
+      <workItem from="1720580544623" duration="2639000" />
+      <workItem from="1720595626947" duration="170000" />
+      <workItem from="1720596118538" duration="252000" />
+      <workItem from="1720596387712" duration="6639000" />
+      <workItem from="1720657816575" duration="14115000" />
+      <workItem from="1720683642471" duration="1943000" />
+      <workItem from="1720689078981" duration="1749000" />
+      <workItem from="1720691339545" duration="643000" />
+      <workItem from="1720745465988" duration="18000" />
+      <workItem from="1720745735731" duration="19000" />
+      <workItem from="1720747853330" duration="9307000" />
+      <workItem from="1720833736619" duration="1194000" />
+      <workItem from="1721008340106" duration="11685000" />
+      <workItem from="1721131336706" duration="879000" />
+      <workItem from="1721132908709" duration="133000" />
+      <workItem from="1721133048616" duration="4317000" />
+      <workItem from="1721137406066" duration="1655000" />
+      <workItem from="1721217320117" duration="5983000" />
+      <workItem from="1721262688516" duration="18490000" />
+      <workItem from="1721353665803" duration="13032000" />
+      <workItem from="1721608237644" duration="729000" />
+      <workItem from="1721618600044" duration="4490000" />
+      <workItem from="1721706652398" duration="2887000" />
+      <workItem from="1721782779738" duration="9534000" />
+      <workItem from="1721801481866" duration="53000" />
+      <workItem from="1721812856272" duration="1340000" />
+      <workItem from="1721871932927" duration="1735000" />
+      <workItem from="1721873872738" duration="6893000" />
+      <workItem from="1721963350028" duration="4600000" />
+      <workItem from="1722077906509" duration="1143000" />
+      <workItem from="1722079731714" duration="2000" />
+      <workItem from="1722251895507" duration="6614000" />
+      <workItem from="1722338550295" duration="26000" />
+      <workItem from="1722860271072" duration="3248000" />
+      <workItem from="1722865944318" duration="105000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720585179920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720585179920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720585516415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720585516415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720585801968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720585801968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596337538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596337538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596412319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596412319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596510859</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596510859</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596612065</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596612065</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596627309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596627309</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新增">
+      <option name="closed" value="true" />
+      <created>1720596776783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720596776783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
