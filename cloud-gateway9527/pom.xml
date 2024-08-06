@@ -25,6 +25,11 @@
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
         <!--    consul依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
