@@ -25,19 +25,18 @@ spring:
 #            - Host=**.it.com #请求中必须带着主机
 #            - Method=GET,POST #配置请求方法
 #            - RemoteAddr=192.168.124.1/24 #外部访问我的ip限制，最大不超过32目前是1·24他们是CIDR表示法
-          filters:
-            -
+
 
 
         - id: pay_routh2 #路由id,类似与mysql主键没有固定规则但是唯一,一般是服务名
           uri: http://localhost:8001  #路由地址
           predicates:
             - Path=/feign/gateway/pay/getInfo/**  #路径匹配的进行断言
-          filters:
-            - CustomSingle=wong
-          #  - RedirectTo=302, https://baidu.com
-          #  - SetPath=/pay/gateway/{segment}
-          #  - PrefixPath=/pay
-          #  - AddRequestHeader=X-Request-Wong,Wong
-          #  - RemoveRequestHeader=sec-fetch-site
-          #  - AddResponseHeader=test, wongsilver
+#          filters:
+#            - CustomSingle=wong
+#            - RedirectTo=302, https://baidu.com
+#            - SetPath=/pay/gateway/{segment}
+#            - PrefixPath=/pay
+#            - AddRequestHeader=X-Request-Wong,Wong
+#            - RemoveRequestHeader=sec-fetch-site
+#            - AddResponseHeader=test, wongsilver

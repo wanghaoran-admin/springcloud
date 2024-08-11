@@ -1,4 +1,4 @@
-package com.it.wang.gateway;
+package com.it.wang.predicates;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;

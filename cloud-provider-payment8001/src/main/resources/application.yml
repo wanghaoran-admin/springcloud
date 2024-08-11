@@ -1,12 +1,12 @@
 spring:
-
+  profiles:
+    active: dev
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: ok
     username: root
-    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=Asia/Shanghai
-  profiles:
-    active: dev
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=Asia/Shanghai&useSSL=false
+
 
 mybatis:
   type-aliases-package  :
