@@ -1,9 +1,17 @@
 package com.it.controller;
 
+import cn.hutool.core.util.IdUtil;
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.it.wang.entity.dto.PayDTO;
+import com.it.wang.resp.Result;
+import com.it.wang.resp.ReturnCodeEnum;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.math.BigDecimal;
 
 @RestController
 public class PayAlibabaController {
@@ -16,4 +24,17 @@ public class PayAlibabaController {
         return "nacos registry serverPost: " + serverPort + ", id: " + id;
     }
 
+    // openfeign和sentinel
+    @GetMapping("/pay/nacos/get/{orderNo}")
+    @SentinelResource(value = "getPayByOrderNo", blockHandler = "handlerBlockHandler")
+    public Result<PayDTO> getPayByOrderNo(@PathVariable("orderNo") String orderNo) {
+        System.out.println(1);
+        // 模拟查询
+        PayDTO payDTO = new PayDTO(1024, orderNo, "pay" + IdUtil.simpleUUID(), 1, BigDecimal.valueOf(9.9));
+        return Result.success(payDTO);
+    }
+
+    public Result<PayDTO> handlerBlockHandler(@PathVariable("orderNo") String orderNo, BlockException e) {
+        return Result.error(ReturnCodeEnum.RC500.getCode(), "服务降级异常");
+    }
 }

@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e851f71-fe0c-46e4-a728-cfa6d27e5ad8" name="更改" comment="新增">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/it/controller/RateLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/it/service/FlowLimitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/it/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/it/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-commons/src/main/java/com/it/wang/apis/PayFeignSentinelApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-commons/src/main/java/com/it/wang/apis/PayFeignSentinelFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/java/com/it/Main9528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/it/controller/EmpowerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/java/com.it/Main83.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/java/com.it/Main83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/java/com.it/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/java/com.it/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-cousumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/it/controller/PayAlibabaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/it/controller/PayAlibabaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main8401">
+  <component name="RunManager" selected="Spring Boot.Main83">
     <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-config-nacos-client3377" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.it.Main3377" />
@@ -204,18 +215,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Main8401" />
+      <item itemvalue="Spring Boot.Main9001" />
       <item itemvalue="Spring Boot.Main3377" />
       <item itemvalue="Spring Boot.Main83" />
-      <item itemvalue="Spring Boot.Main9001" />
       <item itemvalue="Spring Boot.Main9002 copy from 9001" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main8401" />
-        <item itemvalue="Spring Boot.Main3377" />
-        <item itemvalue="Spring Boot.Main9002 copy from 9001" />
-        <item itemvalue="Spring Boot.Main9001" />
         <item itemvalue="Spring Boot.Main83" />
+        <item itemvalue="Spring Boot.Main9001" />
+        <item itemvalue="Spring Boot.Main8401" />
+        <item itemvalue="Spring Boot.Main9002 copy from 9001" />
+        <item itemvalue="Spring Boot.Main3377" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +292,8 @@
       <workItem from="1723682021210" duration="813000" />
       <workItem from="1723710082309" duration="4447000" />
       <workItem from="1723715154608" duration="778000" />
+      <workItem from="1723788849867" duration="10983000" />
+      <workItem from="1723800355429" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="新增">
       <option name="closed" value="true" />

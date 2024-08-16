@@ -8,5 +8,12 @@ spring:
       discovery:
         server-addr: localhost:8848 # nacos地址
 
+
 service-url:
   nacos-user-service: http://nacos-pay-provider
+
+
+#开启对sentinel的整合
+feign:
+  sentinel:
+    enabled: true
